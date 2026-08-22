@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+.vs/
+*.swp
+*~
+.DS_Store
+Thumbs.db
