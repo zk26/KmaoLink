@@ -1,5 +1,7 @@
 bin/
 obj/
+logs/
+logs.zip
 *.user
 *.suo
 *.userprefs
