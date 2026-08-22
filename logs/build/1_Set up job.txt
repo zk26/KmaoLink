@@ -1,0 +1,33 @@
+﻿2026-08-22T12:35:17.9099683Z Current runner version: '2.336.0'
+2026-08-22T12:35:17.9148158Z ##[group]Runner Image Provisioner
+2026-08-22T12:35:17.9150146Z Hosted Compute Agent
+2026-08-22T12:35:17.9151276Z Version: 20260729.566
+2026-08-22T12:35:17.9152386Z Commit: cf7153fe6e25b664e8693c24944bf2b00355d109
+2026-08-22T12:35:17.9153600Z Build Date: 2026-07-29T19:17:02Z
+2026-08-22T12:35:17.9154722Z Worker ID: {8df61172-714a-45d3-aa7d-e128c9427133}
+2026-08-22T12:35:17.9155927Z Azure Region: northcentralus
+2026-08-22T12:35:17.9156853Z ##[endgroup]
+2026-08-22T12:35:17.9159068Z ##[group]Operating System
+2026-08-22T12:35:17.9160101Z Microsoft Windows Server 2025
+2026-08-22T12:35:17.9161051Z 10.0.26100
+2026-08-22T12:35:17.9161921Z Datacenter
+2026-08-22T12:35:17.9162697Z ##[endgroup]
+2026-08-22T12:35:17.9163586Z ##[group]Runner Image
+2026-08-22T12:35:17.9164592Z Image: windows-2025-vs2026
+2026-08-22T12:35:17.9165578Z Version: 20260818.207.1
+2026-08-22T12:35:17.9168023Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260818.207/images/windows/Windows2025-VS2026-Readme.md
+2026-08-22T12:35:17.9172204Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260818.207
+2026-08-22T12:35:17.9174003Z ##[endgroup]
+2026-08-22T12:35:17.9176107Z ##[group]GITHUB_TOKEN Permissions
+2026-08-22T12:35:17.9179199Z Contents: read
+2026-08-22T12:35:17.9180149Z Metadata: read
+2026-08-22T12:35:17.9181084Z Packages: read
+2026-08-22T12:35:17.9181917Z ##[endgroup]
+2026-08-22T12:35:17.9185257Z Secret source: Actions
+2026-08-22T12:35:17.9187625Z Prepare workflow directory
+2026-08-22T12:35:17.9655976Z Prepare all required actions
+2026-08-22T12:35:17.9703749Z Getting action download info
+2026-08-22T12:35:18.1434432Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-08-22T12:35:18.2811394Z Download action repository 'actions/setup-dotnet@v4' (SHA:67a3573c9a986a3f9c594539f4ab511d57bb3ce9)
+2026-08-22T12:35:18.6531683Z Download action repository 'softprops/action-gh-release@v2' (SHA:3bb12739c298aeb8a4eeaf626c5b8d85266b0e65)
+2026-08-22T12:35:18.9896421Z Complete job name: build

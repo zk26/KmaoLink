@@ -1,0 +1,18 @@
+﻿2026-08-22T12:36:01.8178587Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-22T12:36:01.8180013Z ##[group]Run softprops/action-gh-release@v2
+2026-08-22T12:36:01.8180280Z with:
+2026-08-22T12:36:01.8180603Z   files: bin/Release/net8.0-windows10.0.19041.0/win-x64/publish/KmaoLink.exe
+
+2026-08-22T12:36:01.8180989Z   generate_release_notes: true
+2026-08-22T12:36:01.8181219Z   overwrite_files: true
+2026-08-22T12:36:01.8184200Z   token: ***
+2026-08-22T12:36:01.8184382Z env:
+2026-08-22T12:36:01.8184563Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-08-22T12:36:01.8187391Z   GITHUB_TOKEN: ***
+2026-08-22T12:36:01.8187574Z ##[endgroup]
+2026-08-22T12:36:02.2191741Z 👩‍🏭 Creating new GitHub release for tag v1.0.0...
+2026-08-22T12:36:02.3555950Z ⚠️ GitHub release failed with status: 403
+2026-08-22T12:36:02.3558218Z {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/releases/releases#generate-release-notes-content-for-a-release","status":"403"}
+2026-08-22T12:36:02.3560180Z Skip retry — your GitHub token/PAT does not have the required permission to create a release
+2026-08-22T12:36:02.3563276Z ⚠️ Unexpected error fetching GitHub release for tag refs/tags/v1.0.0: HttpError: Resource not accessible by integration - https://docs.github.com/rest/releases/releases#generate-release-notes-content-for-a-release
+2026-08-22T12:36:02.3580537Z ##[error]Resource not accessible by integration - https://docs.github.com/rest/releases/releases#generate-release-notes-content-for-a-release
